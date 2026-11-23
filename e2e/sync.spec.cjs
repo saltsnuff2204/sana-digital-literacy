@@ -1,0 +1,21 @@
+const {test,expect}=require('@playwright/test');
+async function start(page){await page.goto('/');await page.getByTestId('start-learning').click();await page.getByRole('tab',{name:'Настройки',exact:true}).click();await page.getByRole('button',{name:/Войти или создать аккаунт/}).click();}
+async function login(page,name,register){if(register){await page.getByRole('button',{name:'Нет аккаунта? Создать',exact:true}).click();await page.getByRole('textbox',{name:'Имя',exact:true}).fill('Тестовый ученик');}await page.getByRole('textbox',{name:'Логин',exact:true}).fill(name);await page.getByLabel('Пароль',{exact:true}).fill('only-for-ui-test-2026');await page.getByRole('button',{name:register?'Создать аккаунт':'Войти',exact:true}).click();await expect(page.getByText('@'+name,{exact:true})).toBeVisible();}
+async function lesson(page,title,answer){await page.getByRole('tab',{name:'Уроки',exact:true}).click();await page.getByText(title,{exact:true}).click();await page.getByRole('button',{name:/Дальше/}).click();await page.getByRole('button',{name:/Попробовать самому/}).click();await page.getByText(answer,{exact:true}).click();await page.getByRole('button',{name:'Проверить ответ',exact:true}).click();await expect(page.getByText('Урок пройден!',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Назад к урокам',exact:true}).click();}
+test('two devices merge offline learning, account survives offline restart',async({browser})=>{
+ const a=await browser.newContext(),b=await browser.newContext(),p=await a.newPage(),q=await b.newPage();const name='test_'+Date.now();
+ try {await start(p);await login(p,name,true);await start(q);await login(q,name,false);
+  await p.evaluate(()=>navigator.serviceWorker.ready.then(()=>true));await expect.poll(()=>p.evaluate(()=>!!navigator.serviceWorker.controller)).toBe(true);
+  await a.setOffline(true);await p.reload();await expect(p.getByText('Привет, Тестовый ученик!',{exact:true})).toBeVisible();
+  await lesson(p,'Работаем безопасно','Позвать взрослого');await lesson(q,'Знакомимся со Scratch','Спрайт');
+  await a.setOffline(false);await p.getByRole('tab',{name:'Прогресс',exact:true}).click();await p.getByRole('button',{name:/Синхронизировать/}).click();await expect(p.getByText('2 / 69',{exact:true})).toBeVisible({timeout:20000});
+  await q.getByRole('tab',{name:'Прогресс',exact:true}).click();await q.getByRole('button',{name:/Синхронизировать/}).click();await expect(q.getByText('2 / 69',{exact:true})).toBeVisible({timeout:20000});
+  await p.getByRole('tab',{name:'Настройки',exact:true}).click();await p.getByRole('button',{name:'Удалить аккаунт',exact:true}).click();await p.getByLabel('Пароль для удаления',{exact:true}).fill('only-for-ui-test-2026');await p.getByRole('button',{name:'Удалить навсегда',exact:true}).click();await expect(p.getByText('Пробный режим',{exact:true})).toBeVisible();
+ }finally{await a.close();await b.close();}
+});
+test('bundled RU and KK narration plays with network disabled',async({page,context})=>{
+ await page.addInitScript(()=>{window.__sanaAudio=[];const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){if(!window.__sanaAudio.includes(this))window.__sanaAudio.push(this);return play.call(this);};});
+ await page.goto('/');await page.getByTestId('start-learning').click();await page.evaluate(()=>navigator.serviceWorker.ready.then(()=>true));await expect.poll(()=>page.evaluate(()=>!!navigator.serviceWorker.controller)).toBe(true);await context.setOffline(true);await page.reload();
+ await page.getByRole('button',{name:/Первый урок/}).click();await page.getByRole('button',{name:'Слушать тему',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__sanaAudio.some(a=>a.currentTime>0&&!a.paused))).toBe(true);
+ await page.getByRole('button',{name:'Назад к урокам',exact:true}).click();await page.getByRole('tab',{name:'Настройки',exact:true}).click();await page.getByRole('radio',{name:'Қазақша',exact:true}).click();await page.getByRole('tab',{name:'Басты бет',exact:true}).click();await page.getByRole('button',{name:/Алғашқы сабақ/}).click();await page.getByRole('button',{name:'Тақырыпты тыңдау',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__sanaAudio.some(a=>a.currentTime>0&&!a.paused))).toBe(true);
+});

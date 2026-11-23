@@ -1,0 +1,692 @@
+[
+  {
+    "file": "g1-01-kk.mp3",
+    "seconds": 20.78,
+    "bytes": 124704
+  },
+  {
+    "file": "g1-01-ru.mp3",
+    "seconds": 24.67,
+    "bytes": 148032
+  },
+  {
+    "file": "g1-02-kk.mp3",
+    "seconds": 21.86,
+    "bytes": 131184
+  },
+  {
+    "file": "g1-02-ru.mp3",
+    "seconds": 24.86,
+    "bytes": 149184
+  },
+  {
+    "file": "g1-03-kk.mp3",
+    "seconds": 22.73,
+    "bytes": 136368
+  },
+  {
+    "file": "g1-03-ru.mp3",
+    "seconds": 26.93,
+    "bytes": 161568
+  },
+  {
+    "file": "g1-04-kk.mp3",
+    "seconds": 19.42,
+    "bytes": 116496
+  },
+  {
+    "file": "g1-04-ru.mp3",
+    "seconds": 22.2,
+    "bytes": 133200
+  },
+  {
+    "file": "g1-05-kk.mp3",
+    "seconds": 19.87,
+    "bytes": 119232
+  },
+  {
+    "file": "g1-05-ru.mp3",
+    "seconds": 21.86,
+    "bytes": 131184
+  },
+  {
+    "file": "g1-06-kk.mp3",
+    "seconds": 18.5,
+    "bytes": 111024
+  },
+  {
+    "file": "g1-06-ru.mp3",
+    "seconds": 20.59,
+    "bytes": 123552
+  },
+  {
+    "file": "g1-07-kk.mp3",
+    "seconds": 22.13,
+    "bytes": 132768
+  },
+  {
+    "file": "g1-07-ru.mp3",
+    "seconds": 22.08,
+    "bytes": 132480
+  },
+  {
+    "file": "g1-08-kk.mp3",
+    "seconds": 20.45,
+    "bytes": 122688
+  },
+  {
+    "file": "g1-08-ru.mp3",
+    "seconds": 23.3,
+    "bytes": 139824
+  },
+  {
+    "file": "g1-09-kk.mp3",
+    "seconds": 19.82,
+    "bytes": 118944
+  },
+  {
+    "file": "g1-09-ru.mp3",
+    "seconds": 22.61,
+    "bytes": 135648
+  },
+  {
+    "file": "g1-10-kk.mp3",
+    "seconds": 26.04,
+    "bytes": 156240
+  },
+  {
+    "file": "g1-10-ru.mp3",
+    "seconds": 27.5,
+    "bytes": 165024
+  },
+  {
+    "file": "g2-01-kk.mp3",
+    "seconds": 22.58,
+    "bytes": 135504
+  },
+  {
+    "file": "g2-01-ru.mp3",
+    "seconds": 24.6,
+    "bytes": 147600
+  },
+  {
+    "file": "g2-02-kk.mp3",
+    "seconds": 24.12,
+    "bytes": 144720
+  },
+  {
+    "file": "g2-02-ru.mp3",
+    "seconds": 20.57,
+    "bytes": 123408
+  },
+  {
+    "file": "g2-03-kk.mp3",
+    "seconds": 22.03,
+    "bytes": 132192
+  },
+  {
+    "file": "g2-03-ru.mp3",
+    "seconds": 24.91,
+    "bytes": 149472
+  },
+  {
+    "file": "g2-04-kk.mp3",
+    "seconds": 22.06,
+    "bytes": 132336
+  },
+  {
+    "file": "g2-04-ru.mp3",
+    "seconds": 24.89,
+    "bytes": 149328
+  },
+  {
+    "file": "g2-05-kk.mp3",
+    "seconds": 19.85,
+    "bytes": 119088
+  },
+  {
+    "file": "g2-05-ru.mp3",
+    "seconds": 22.08,
+    "bytes": 132480
+  },
+  {
+    "file": "g2-06-kk.mp3",
+    "seconds": 21.84,
+    "bytes": 131040
+  },
+  {
+    "file": "g2-06-ru.mp3",
+    "seconds": 24.96,
+    "bytes": 149760
+  },
+  {
+    "file": "g2-07-kk.mp3",
+    "seconds": 22.13,
+    "bytes": 132768
+  },
+  {
+    "file": "g2-07-ru.mp3",
+    "seconds": 26.21,
+    "bytes": 157248
+  },
+  {
+    "file": "g2-08-kk.mp3",
+    "seconds": 21.98,
+    "bytes": 131904
+  },
+  {
+    "file": "g2-08-ru.mp3",
+    "seconds": 23.74,
+    "bytes": 142416
+  },
+  {
+    "file": "g2-09-kk.mp3",
+    "seconds": 21.62,
+    "bytes": 129744
+  },
+  {
+    "file": "g2-09-ru.mp3",
+    "seconds": 22.99,
+    "bytes": 137952
+  },
+  {
+    "file": "g2-10-kk.mp3",
+    "seconds": 24.17,
+    "bytes": 145008
+  },
+  {
+    "file": "g2-10-ru.mp3",
+    "seconds": 25.01,
+    "bytes": 150048
+  },
+  {
+    "file": "g2-11-kk.mp3",
+    "seconds": 18.96,
+    "bytes": 113760
+  },
+  {
+    "file": "g2-11-ru.mp3",
+    "seconds": 21.91,
+    "bytes": 131472
+  },
+  {
+    "file": "g2-12-kk.mp3",
+    "seconds": 20.23,
+    "bytes": 121392
+  },
+  {
+    "file": "g2-12-ru.mp3",
+    "seconds": 23.11,
+    "bytes": 138672
+  },
+  {
+    "file": "g2-13-kk.mp3",
+    "seconds": 21.5,
+    "bytes": 129024
+  },
+  {
+    "file": "g2-13-ru.mp3",
+    "seconds": 24.05,
+    "bytes": 144288
+  },
+  {
+    "file": "g2-14-kk.mp3",
+    "seconds": 22.34,
+    "bytes": 134064
+  },
+  {
+    "file": "g2-14-ru.mp3",
+    "seconds": 17.78,
+    "bytes": 106704
+  },
+  {
+    "file": "g2-15-kk.mp3",
+    "seconds": 19.06,
+    "bytes": 114336
+  },
+  {
+    "file": "g2-15-ru.mp3",
+    "seconds": 20.71,
+    "bytes": 124272
+  },
+  {
+    "file": "g2-16-kk.mp3",
+    "seconds": 24.26,
+    "bytes": 145584
+  },
+  {
+    "file": "g2-16-ru.mp3",
+    "seconds": 25.39,
+    "bytes": 152352
+  },
+  {
+    "file": "g2-17-kk.mp3",
+    "seconds": 21.89,
+    "bytes": 131328
+  },
+  {
+    "file": "g2-17-ru.mp3",
+    "seconds": 23.52,
+    "bytes": 141120
+  },
+  {
+    "file": "g3-01-kk.mp3",
+    "seconds": 20.93,
+    "bytes": 125568
+  },
+  {
+    "file": "g3-01-ru.mp3",
+    "seconds": 24.67,
+    "bytes": 148032
+  },
+  {
+    "file": "g3-02-kk.mp3",
+    "seconds": 20.42,
+    "bytes": 122544
+  },
+  {
+    "file": "g3-02-ru.mp3",
+    "seconds": 16.92,
+    "bytes": 101520
+  },
+  {
+    "file": "g3-03-kk.mp3",
+    "seconds": 24.58,
+    "bytes": 147456
+  },
+  {
+    "file": "g3-03-ru.mp3",
+    "seconds": 28.46,
+    "bytes": 170784
+  },
+  {
+    "file": "g3-04-kk.mp3",
+    "seconds": 21.1,
+    "bytes": 126576
+  },
+  {
+    "file": "g3-04-ru.mp3",
+    "seconds": 21.65,
+    "bytes": 129888
+  },
+  {
+    "file": "g3-05-kk.mp3",
+    "seconds": 21.84,
+    "bytes": 131040
+  },
+  {
+    "file": "g3-05-ru.mp3",
+    "seconds": 24.31,
+    "bytes": 145872
+  },
+  {
+    "file": "g3-06-kk.mp3",
+    "seconds": 21.19,
+    "bytes": 127152
+  },
+  {
+    "file": "g3-06-ru.mp3",
+    "seconds": 22.78,
+    "bytes": 136656
+  },
+  {
+    "file": "g3-07-kk.mp3",
+    "seconds": 20.54,
+    "bytes": 123264
+  },
+  {
+    "file": "g3-07-ru.mp3",
+    "seconds": 21.98,
+    "bytes": 131904
+  },
+  {
+    "file": "g3-08-kk.mp3",
+    "seconds": 19.32,
+    "bytes": 115920
+  },
+  {
+    "file": "g3-08-ru.mp3",
+    "seconds": 20.74,
+    "bytes": 124416
+  },
+  {
+    "file": "g3-09-kk.mp3",
+    "seconds": 18.1,
+    "bytes": 108576
+  },
+  {
+    "file": "g3-09-ru.mp3",
+    "seconds": 20.26,
+    "bytes": 121536
+  },
+  {
+    "file": "g3-10-kk.mp3",
+    "seconds": 25.1,
+    "bytes": 150624
+  },
+  {
+    "file": "g3-10-ru.mp3",
+    "seconds": 27.65,
+    "bytes": 165888
+  },
+  {
+    "file": "g3-11-kk.mp3",
+    "seconds": 23.76,
+    "bytes": 142560
+  },
+  {
+    "file": "g3-11-ru.mp3",
+    "seconds": 24.72,
+    "bytes": 148320
+  },
+  {
+    "file": "g3-12-kk.mp3",
+    "seconds": 23.3,
+    "bytes": 139824
+  },
+  {
+    "file": "g3-12-ru.mp3",
+    "seconds": 25.87,
+    "bytes": 155232
+  },
+  {
+    "file": "g3-13-kk.mp3",
+    "seconds": 22.49,
+    "bytes": 134928
+  },
+  {
+    "file": "g3-13-ru.mp3",
+    "seconds": 25.06,
+    "bytes": 150336
+  },
+  {
+    "file": "g3-14-kk.mp3",
+    "seconds": 17.23,
+    "bytes": 103392
+  },
+  {
+    "file": "g3-14-ru.mp3",
+    "seconds": 20.88,
+    "bytes": 125280
+  },
+  {
+    "file": "g3-15-kk.mp3",
+    "seconds": 21.86,
+    "bytes": 131184
+  },
+  {
+    "file": "g3-15-ru.mp3",
+    "seconds": 24.22,
+    "bytes": 145296
+  },
+  {
+    "file": "g3-16-kk.mp3",
+    "seconds": 20.52,
+    "bytes": 123120
+  },
+  {
+    "file": "g3-16-ru.mp3",
+    "seconds": 26.26,
+    "bytes": 157536
+  },
+  {
+    "file": "g3-17-kk.mp3",
+    "seconds": 21.02,
+    "bytes": 126144
+  },
+  {
+    "file": "g3-17-ru.mp3",
+    "seconds": 23.3,
+    "bytes": 139824
+  },
+  {
+    "file": "g3-18-kk.mp3",
+    "seconds": 22.7,
+    "bytes": 136224
+  },
+  {
+    "file": "g3-18-ru.mp3",
+    "seconds": 24.74,
+    "bytes": 148464
+  },
+  {
+    "file": "g3-19-kk.mp3",
+    "seconds": 19.34,
+    "bytes": 116064
+  },
+  {
+    "file": "g3-19-ru.mp3",
+    "seconds": 22.13,
+    "bytes": 132768
+  },
+  {
+    "file": "g3-20-kk.mp3",
+    "seconds": 19.75,
+    "bytes": 118512
+  },
+  {
+    "file": "g3-20-ru.mp3",
+    "seconds": 21.77,
+    "bytes": 130608
+  },
+  {
+    "file": "g4-01-kk.mp3",
+    "seconds": 19.94,
+    "bytes": 119664
+  },
+  {
+    "file": "g4-01-ru.mp3",
+    "seconds": 25.18,
+    "bytes": 151056
+  },
+  {
+    "file": "g4-02-kk.mp3",
+    "seconds": 18.36,
+    "bytes": 110160
+  },
+  {
+    "file": "g4-02-ru.mp3",
+    "seconds": 21.22,
+    "bytes": 127296
+  },
+  {
+    "file": "g4-03-kk.mp3",
+    "seconds": 22.75,
+    "bytes": 136512
+  },
+  {
+    "file": "g4-03-ru.mp3",
+    "seconds": 23.47,
+    "bytes": 140832
+  },
+  {
+    "file": "g4-04-kk.mp3",
+    "seconds": 20.66,
+    "bytes": 123984
+  },
+  {
+    "file": "g4-04-ru.mp3",
+    "seconds": 21.31,
+    "bytes": 127872
+  },
+  {
+    "file": "g4-05-kk.mp3",
+    "seconds": 22.15,
+    "bytes": 132912
+  },
+  {
+    "file": "g4-05-ru.mp3",
+    "seconds": 24.12,
+    "bytes": 144720
+  },
+  {
+    "file": "g4-06-kk.mp3",
+    "seconds": 21.02,
+    "bytes": 126144
+  },
+  {
+    "file": "g4-06-ru.mp3",
+    "seconds": 22.94,
+    "bytes": 137664
+  },
+  {
+    "file": "g4-07-kk.mp3",
+    "seconds": 25.56,
+    "bytes": 153360
+  },
+  {
+    "file": "g4-07-ru.mp3",
+    "seconds": 24.1,
+    "bytes": 144576
+  },
+  {
+    "file": "g4-08-kk.mp3",
+    "seconds": 19.85,
+    "bytes": 119088
+  },
+  {
+    "file": "g4-08-ru.mp3",
+    "seconds": 23.47,
+    "bytes": 140832
+  },
+  {
+    "file": "g4-09-kk.mp3",
+    "seconds": 18.0,
+    "bytes": 108000
+  },
+  {
+    "file": "g4-09-ru.mp3",
+    "seconds": 20.98,
+    "bytes": 125856
+  },
+  {
+    "file": "g4-10-kk.mp3",
+    "seconds": 19.97,
+    "bytes": 119808
+  },
+  {
+    "file": "g4-10-ru.mp3",
+    "seconds": 22.15,
+    "bytes": 132912
+  },
+  {
+    "file": "g4-11-kk.mp3",
+    "seconds": 24.55,
+    "bytes": 147312
+  },
+  {
+    "file": "g4-11-ru.mp3",
+    "seconds": 27.72,
+    "bytes": 166320
+  },
+  {
+    "file": "g4-12-kk.mp3",
+    "seconds": 19.1,
+    "bytes": 114624
+  },
+  {
+    "file": "g4-12-ru.mp3",
+    "seconds": 21.86,
+    "bytes": 131184
+  },
+  {
+    "file": "g4-13-kk.mp3",
+    "seconds": 22.42,
+    "bytes": 134496
+  },
+  {
+    "file": "g4-13-ru.mp3",
+    "seconds": 24.14,
+    "bytes": 144864
+  },
+  {
+    "file": "g4-14-kk.mp3",
+    "seconds": 20.18,
+    "bytes": 121104
+  },
+  {
+    "file": "g4-14-ru.mp3",
+    "seconds": 22.94,
+    "bytes": 137664
+  },
+  {
+    "file": "g4-15-kk.mp3",
+    "seconds": 23.18,
+    "bytes": 139104
+  },
+  {
+    "file": "g4-15-ru.mp3",
+    "seconds": 26.04,
+    "bytes": 156240
+  },
+  {
+    "file": "g4-16-kk.mp3",
+    "seconds": 25.68,
+    "bytes": 154080
+  },
+  {
+    "file": "g4-16-ru.mp3",
+    "seconds": 29.14,
+    "bytes": 174816
+  },
+  {
+    "file": "g4-17-kk.mp3",
+    "seconds": 22.73,
+    "bytes": 136368
+  },
+  {
+    "file": "g4-17-ru.mp3",
+    "seconds": 26.47,
+    "bytes": 158832
+  },
+  {
+    "file": "g4-18-kk.mp3",
+    "seconds": 21.79,
+    "bytes": 130752
+  },
+  {
+    "file": "g4-18-ru.mp3",
+    "seconds": 22.58,
+    "bytes": 135504
+  },
+  {
+    "file": "g4-19-kk.mp3",
+    "seconds": 20.71,
+    "bytes": 124272
+  },
+  {
+    "file": "g4-19-ru.mp3",
+    "seconds": 23.11,
+    "bytes": 138672
+  },
+  {
+    "file": "g4-20-kk.mp3",
+    "seconds": 19.15,
+    "bytes": 114912
+  },
+  {
+    "file": "g4-20-ru.mp3",
+    "seconds": 22.78,
+    "bytes": 136656
+  },
+  {
+    "file": "g4-21-kk.mp3",
+    "seconds": 25.15,
+    "bytes": 150912
+  },
+  {
+    "file": "g4-21-ru.mp3",
+    "seconds": 26.35,
+    "bytes": 158112
+  },
+  {
+    "file": "g4-22-kk.mp3",
+    "seconds": 25.25,
+    "bytes": 151488
+  },
+  {
+    "file": "g4-22-ru.mp3",
+    "seconds": 26.23,
+    "bytes": 157392
+  }
+]
