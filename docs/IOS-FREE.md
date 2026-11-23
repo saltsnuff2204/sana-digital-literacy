@@ -1,6 +1,6 @@
 # Бесплатная сборка iOS и установка через Windows
 
-Проверено по документации 24 ноября 2026. Подготовлена конфигурация; облачная сборка и установка на физический iPhone ещё НЕ выполнены. Это путь для личной демонстрации, а не публикации в App Store.
+Проверено по документации 24 ноября 2026. Облачная сборка выполнена успешно. Установка на физический iPhone ещё НЕ выполнена. Это путь для личной демонстрации, а не публикации в App Store.
 
 ## Схема
 
@@ -18,7 +18,7 @@ Apple Account не передаётся в GitHub и не нужен при сб
 2. Обязательно загрузи `assets/audio` (138 файлов), `package-lock.json`, `plugins`, `scripts` и скрытую папку `.github`.
 3. Открой **Actions → Build iOS IPA (unsigned) → Run workflow**. Workflow запускается только вручную. GitHub может потребовать включить Actions или подтвердить аккаунт.
 4. При успешном завершении скачай артефакт **Sana-iOS-unsigned**. Распакуй внешний ZIP, внутри будет `Sana-unsigned.ipa` и SHA-256. Сам IPA распаковывать не нужно.
-5. Если сборка завершится ошибкой, сохрани лог шага и артефакт `iOS-build-log`. Конфигурация ещё не проверена на реальном runner; несовместимости Xcode/Pods нужно исправлять по этому логу.
+5. Если сборка завершится ошибкой, сохрани лог шага и артефакт `iOS-build-log`. При ошибках следующих сборок несовместимости Xcode/Pods нужно исправлять по этому логу.
 
 Workflow собирает Release для настоящего iPhone, а не симулятора, проверяет встроенный JavaScript и 138 MP3. Первичный запуск аккаунта не обязателен: уроки доступны в пробном режиме. Для синхронизации укажи доступный HTTPS-сервер в расширенных настройках входа.
 
@@ -46,3 +46,11 @@ Workflow собирает Release для настоящего iPhone, а не с
 - [AltStore Classic: установка через Windows](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows)
 - [AltStore: срок подписи и лимит приложений](https://faq.altstore.io/altstore-classic/your-altstore)
 - [Apple: бесплатный аккаунт и Personal Team](https://developer.apple.com/help/account/basics/about-your-developer-account)
+
+## Первая успешная сборка
+
+Репозиторий: https://github.com/saltsnuff2204/sana-digital-literacy
+
+Запуск: https://github.com/saltsnuff2204/sana-digital-literacy/actions/runs/45254894290
+
+Успех за 8 минут 53 секунды. IPA: 24 198 216 байт; iPhone/iPad, минимальная iOS/iPadOS 16.4, 138 MP3 и встроенный main.jsbundle. Проверены ZIP и SHA-256 после скачивания. Локальный файл: `deliverables/ios/Sana-unsigned.ipa`. Для установки необходима подпись через AltStore; физический запуск ещё не проверен. Артефакт GitHub хранится один день, локальная копия остаётся.

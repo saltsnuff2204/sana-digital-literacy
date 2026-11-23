@@ -63,11 +63,11 @@ npm run server
 
 ## Android и iOS
 
-Бесплатный путь для iPhone через GitHub Actions и AltStore на Windows подготовлен в [docs/IOS-FREE.md](docs/IOS-FREE.md). Конфигурация `.github/workflows/ios-unsigned.yml` создаёт неподписанный IPA; фактическая облачная сборка и установка пока не выполнены.
+Бесплатный путь для iPhone через GitHub Actions и AltStore на Windows подготовлен в [docs/IOS-FREE.md](docs/IOS-FREE.md). Конфигурация `.github/workflows/ios-unsigned.yml` создаёт неподписанный IPA; облачная сборка успешно выполнена, установка на устройстве пока не проверена.
 
 Проект использует общий React Native интерфейс для телефона и планшета. Веб-версия предоставлена дополнительно для проверки на Windows.
 
-Готовый файл `deliverables/Sana-Android-arm64.apk` можно установить на ARM64-устройство с Android 7.0 или новее. Все 69 уроков и 138 аудиозаписей встроены. Это демонстрационная сборка с debug-подписью; на физическом устройстве она пока не проверена. Для аккаунта и синхронизации укажите HTTPS-адрес своего сервера в расширенных настройках входа. Публичный сервер не включён. Установочный IPA для iPhone/iPad не создан: требуется Apple Developer и подпись. Подробности сборки на Windows находятся в `docs/VALIDATION.md`.
+Готовый файл `deliverables/Sana-Android-arm64.apk` можно установить на ARM64-устройство с Android 7.0 или новее. Все 69 уроков и 138 аудиозаписей встроены. Это демонстрационная сборка с debug-подписью; на физическом устройстве она пока не проверена. Для аккаунта и синхронизации укажите HTTPS-адрес своего сервера в расширенных настройках входа. Публичный сервер не включён. Неподписанный IPA для iPhone/iPad собран: `deliverables/ios/Sana-unsigned.ipa`, iOS/iPadOS 16.4+. Его можно подписать бесплатным Apple Account через AltStore на Windows; см. `docs/IOS-FREE.md`. Подробности сборки на Windows находятся в `docs/VALIDATION.md`.
 
 Предпросмотр на iPhone через Expo Go:
 
@@ -85,7 +85,7 @@ npx eas-cli build --platform android --profile preview
 npx eas-cli build --platform ios --profile preview
 ```
 
-Android preview создаёт APK. Для iOS нужны аккаунт Apple Developer, подпись и регистрация устройства для internal distribution либо TestFlight через production build. С Windows можно отправить сборку в EAS; локальная сборка iOS требует macOS/Xcode. Входы, оплата и публикация не выполнены автоматически. `native-dist` — JavaScript и ресурсы платформ, не APK/IPA.
+Android preview создаёт APK. Для iOS нужны аккаунт Apple Developer, подпись и регистрация устройства для internal distribution либо TestFlight через production build. С Windows можно отправить сборку в EAS; локальная сборка iOS требует macOS/Xcode. Оплата и публикация в магазинах не выполнены. `native-dist` — JavaScript и ресурсы платформ, не APK/IPA.
 
 ## Озвучка
 

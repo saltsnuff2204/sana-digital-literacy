@@ -1,0 +1,15 @@
+{
+  "run": "https://github.com/saltsnuff2204/sana-digital-literacy/actions/runs/45254894290",
+  "sha256": "aa28f942c70d208b32c9a3ec15ca424d3998ca1397cd52a7908d7daefe7b7ef4",
+  "bytes": 24198216,
+  "minimumIOS": "16.4",
+  "platform": [
+    "iPhoneOS"
+  ],
+  "devices": [
+    1,
+    2
+  ],
+  "mp3": 138,
+  "bundleBytes": 1858193
+}
